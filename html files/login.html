@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Recipe Finder</title>
+    <link rel="stylesheet" href="/css files/login.css">
+</head>
+<body>
+    <!-- Nav Bar -->
+    <header>
+        <nav class="navbar">
+
+            <a href="/Recipe_Finder/index.html">
+                <h1 class="border">Recipe Finder</h1>
+            </a>
+
+            <div class="nav_links">
+                <a class="border" href="/html files/recipe.html">Recipes</a>
+                <a class="border" href="cooking.html">Cooking Tips </a>
+                <a class="border" href="#">Help</a>
+                <a class="border" href="#">Contact Us</a>
+            </div>
+
+            <div class="sign_in">
+                <a class="border" href="login.html">Login</a>
+                <a class="border" href="sign_up.html">Sign Up</a>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container" id="login_container">
+        <header class="fade-in">
+            <h2 id="login_h1">Log in</h2>
+        </header>
+
+        <main>
+            <form class="fade-in" id="signupForm" id="login_form" >
+
+                <label id="login_label" for="email">Email:</label>
+                <input id="login_input" type="email" id="email" name="email" required>
+
+                <label id="login_label" for="password">Password:</label>
+                <input id="login_input" type="password" id="password" name="password" minlength="6" maxlength="16" required>
+
+                <button id="login_button" type="submit" class="btn">Login</button>
+                <button id="login_button" type="button"><a href="forgot_password.html">Forgot Password?</a></button>
+                <button id="login_button" type="button"><a href="donor-registration.html">You don't have an account?</a></button>
+            </form>
+        </main>
+    </div>
+
+    <footer>
+        <div class="footer">
+            <p>&copy; 2025 | Recipe Finder | All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
+
